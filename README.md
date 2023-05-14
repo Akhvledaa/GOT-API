@@ -1,1 +1,4 @@
 # Weather-API-app
+This Python script retrieves weather data from OpenWeatherMap API based on a user input city. The retrieved data is stored in a JSON file and parsed to extract weather information for the city such as description and temperature. The script then creates a SQLite database and inserts the extracted data into a table named weather. The data can then be retrieved and analyzed for further use. Additionally, a notification is displayed on Windows 11 using the win11toast module that provides information about the weather in the selected city.
+
+This script demonstrates how to fetch data from an API, parse JSON data, and store it in a database. It also shows how to use external modules to display notifications on Windows 11. It could be extended to include more features like displaying a weather forecast or creating a graphical user interface to display the data in a more user-friendly way.
