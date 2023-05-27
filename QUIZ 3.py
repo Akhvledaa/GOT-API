@@ -18,7 +18,7 @@ datajson = r.json()
 
 # Expecting an error
 if not datajson:
-    print("You have entered incorrect name, you must spell correctly")
+    print("You have entered incorrect name, you must spell it correctly")
     exit()
 
 with open('GOT.json', 'w+') as file:
